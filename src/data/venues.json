@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tsumagoi",
+    "name": "つま恋",
+    "fullName": "つま恋乗馬倶楽部",
+    "prefecture": "静岡県",
+    "latitude": 34.7629,
+    "longitude": 138.0497
+  },
+  {
+    "id": "bajikoen",
+    "name": "馬事公苑",
+    "fullName": "馬事公苑",
+    "prefecture": "東京都",
+    "latitude": 35.6297,
+    "longitude": 139.6663
+  },
+  {
+    "id": "gotemba",
+    "name": "御殿場",
+    "fullName": "御殿場乗馬クラブ",
+    "prefecture": "静岡県",
+    "latitude": 35.3069,
+    "longitude": 138.9336
+  },
+  {
+    "id": "miki",
+    "name": "三木ホースランドパーク",
+    "fullName": "三木ホースランドパーク",
+    "prefecture": "兵庫県",
+    "latitude": 34.8000,
+    "longitude": 135.0000
+  },
+  {
+    "id": "yamanashi",
+    "name": "山梨県馬術競技場",
+    "fullName": "山梨県馬術競技場",
+    "prefecture": "山梨県",
+    "latitude": 35.6635,
+    "longitude": 138.5688
+  },
+  {
+    "id": "northern",
+    "name": "ノーザンホースパーク",
+    "fullName": "ノーザンホースパーク",
+    "prefecture": "北海道",
+    "latitude": 42.8097,
+    "longitude": 141.6622
+  }
+]

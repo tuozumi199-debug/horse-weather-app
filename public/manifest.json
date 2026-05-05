@@ -1,0 +1,10 @@
+{
+  "name": "馬場天気 - 乗馬競技場天気予報",
+  "short_name": "馬場天気",
+  "description": "乗馬競技場ごとの時間別天気予報",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": []
+}
