@@ -1,15 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="乗馬競技場ごとの時間別天気予報アプリ" />
+
+    <!-- iPhone / スマホ表示設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- アプリ名 -->
+    <title>馬場天気</title>
+    <meta name="description" content="乗馬競技場ごとの時間別天気予報" />
+
+    <!-- テーマカラー -->
     <meta name="theme-color" content="#0d1117" />
-    <link rel="manifest" href="/manifest.json" />
-    <title>馬場天気 - 乗馬競技場天気予報</title>
+
+    <!-- PWA / ホーム画面追加用 -->
+    <link rel="manifest" href="/horse-weather-app/manifest.json" />
+
+    <!-- iPhoneホーム画面アイコン -->
+    <link rel="apple-touch-icon" href="/horse-weather-app/icon-180.png" />
+
+    <!-- 通常のブラウザアイコン -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/horse-weather-app/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/horse-weather-app/icon-512.png" />
+
+    <!-- iPhoneでホーム画面から開いたときの見え方 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="馬場天気" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Windows / Android向け補助 -->
+    <meta name="application-name" content="馬場天気" />
+    <meta name="mobile-web-app-capable" content="yes" />
   </head>
+
   <body>
     <div id="root"></div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
